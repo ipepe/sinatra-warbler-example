@@ -10,7 +10,8 @@ Warbler::Config.new do |config|
 
   # Name of the war file (without the .war) -- defaults to the basename
   # of RAILS_ROOT
-  config.war_name = "sinatra-warbler-example"
+  config.war_name = "sinatramysql"
+  config.jar_name = "sinatramysql"
 
   # Application booter to use, one of :rack, :rails, or :merb (autodetected by default)
   # config.webxml.booter = :rack
